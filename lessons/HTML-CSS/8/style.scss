@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$primeRed: #ff0000bc;
+$primeGold: gold;
+
+@mixin Tima ($fs, $fw, $lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+.block {
+    .title{
+        text-align: center;
+        color: gold;
+    }
+    &_item {
+        width: 150px;
+        height: 150px;
+        background-color: $primeGold;
+        margin: 5px;
+        padding: 65px 70px;
+
+    }
+    &-red{
+        background-color: $primeRed;
+    }
+
+    &-title {
+        text-align: center;
+        background-color: $primeRed;
+        @include Tima(54, 400, 18 )
+    }
+}
+
+@import './main.scss';

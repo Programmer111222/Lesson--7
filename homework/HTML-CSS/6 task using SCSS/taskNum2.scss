@@ -1,0 +1,28 @@
+.main-box {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 520px;
+    .red {
+        @include Asadbek (300px, 300px);
+        background-color: $colorRed;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .blue {
+        @include Asadbek (300px, 300px);
+        background-color: $colorBlue;
+        position: absolute;
+        top: 130px;
+        left: 140px;
+    }
+    .green {
+        @include Asadbek (300px, 300px);
+        background-color: $colorgreen;
+        position: absolute;
+        top: 60px;
+        left: 70px;
+    }
+}

@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+/***************************The traffic light***************************/
+
+
+.traffic-light-box {
+    width: 350px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid #000;
+    background-color: grey;
+    position: relative;
+}
+
+.color-red {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 15px auto;
+    position: absolute;
+    left: 90px;
+    animation-name: red-color;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+.color-red:hover {
+    background-color: yellow;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.color-yellow {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 40px auto;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    animation-name: yellow-color;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+.color-yellow:hover {
+    background-color: green;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.color-green {  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 90px;
+    bottom: 15px;
+    animation-name: green-color;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+}
+
+.color-green:hover {
+    background-color: red;
+    transition: 3s;
+    cursor: pointer;
+}
+
+
+/***************************The traffic light2***************************/
+
+
+.traffic-light-box2 {
+    width: 500px;
+    height: 330px;
+    margin: 50px auto;
+    border: 5px solid #000;
+    background-color: grey;
+    position: relative;   
+}
+
+.color-red2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 530px;
+    top: 865px;
+    animation-name: red-color2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+.color-yellow2 {
+    width: 150px;   
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    left: 685px;
+    top: 865px;
+    animation-name: yellow-color2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+.color-green2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 840px;
+    top: 865px;
+    animation-name: green-color2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+}
+
+
+/***************************Animation of the traffic light***************************/
+
+
+@keyframes red-color {
+    0% {
+        top: -350px;
+        left: 70px;
+    }
+    100% {
+        top: 5px;
+        left: 95px;
+    }
+
+}
+
+@keyframes yellow-color {
+    0% {
+        top: -650px;
+        left: 70px;
+    }
+    100% {
+        top: 135px;
+        left: 95px;
+    }
+
+}
+
+@keyframes green-color {
+    0% {
+        top: -950px;
+        left: 70px;
+    }
+    100% {
+        top: 330px;
+        left: 95px;
+    }
+}
+
+
+/***************************Animation of the traffic light2***************************/
+
+
+@keyframes red-color2 {
+    0% {
+        left: -300px;
+        bottom: 200px;
+    }
+    100% {
+        left: 520px;
+        top: 860px;
+    }
+}
+
+@keyframes yellow-color2 {
+    0% {
+        left: -500px;
+        bottom: 200px;
+    }
+    100% {
+        left: 680px;
+        top: 860px;
+    }
+
+}
+@keyframes green-color2 {
+    0% {
+        left: -700px;
+        bottom: 200px;
+    }
+    100% {
+        left: 840px;
+        top: 860px;
+    }
+}

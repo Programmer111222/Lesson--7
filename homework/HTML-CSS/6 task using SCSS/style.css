@@ -1,0 +1,94 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------- Task №1 starts------------------------*/
+.container {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-color: teal;
+}
+.container .box {
+  position: absolute;
+  top: 40px;
+  left: 410px;
+  width: 670px;
+  height: 580px;
+  border: 4px solid #000000;
+}
+.container .box-red {
+  width: 150px;
+  height: 110px;
+  background-color: crimson;
+  margin: 40px;
+  border: 4px solid #000000;
+}
+.container .box-blue {
+  width: 150px;
+  height: 310px;
+  background-color: blue;
+  margin: 40px;
+  border: 4px solid #000000;
+}
+.container .box-green {
+  width: 350px;
+  height: 310px;
+  background-color: green;
+  margin: 40px;
+  border: 4px solid #000000;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+.container .box .yellow {
+  width: 350px;
+  height: 110px;
+  background-color: yellow;
+  margin: 40px;
+  border: 4px solid #000000;
+  position: absolute;
+  top: 350px;
+  left: 220px;
+}
+
+/*------------------------- Task №1 ends------------------------*/
+/*------------------------- Task №2 starts------------------------*/
+.main-box {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 520px;
+}
+.main-box .red {
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.main-box .blue {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  position: absolute;
+  top: 130px;
+  left: 140px;
+}
+.main-box .green {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+/*------------------------- Task №2 ends------------------------*/
+
+/*# sourceMappingURL=style.css.map */
