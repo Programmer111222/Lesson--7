@@ -98,7 +98,7 @@ let [num1, num2, num3, num4] = mas1
 console.log(num1);
 console.log(num2);
 
-
+ 
 let obj1 = {name: "Aktan", age: 10, surname: "Nuraliev"}
 
 let {name: name1, age: age1, surname: surname1,} = obj1;
@@ -113,6 +113,5 @@ let numb = 20;
 console.log(man + ' World' + ' ' + numb);
 
 console.log(`${man} World ${numb}`);
-
 
 
